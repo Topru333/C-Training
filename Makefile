@@ -141,7 +141,7 @@ ifeq ($(strip $(ICON)),)
 		endif
 	endif
 else
-	export APP_ICON := $(ASSETS)/$(ICON)
+	export APP_ICON := $(CURDIR)/$(ASSETS)/$(ICON)
 endif
 
 ifeq ($(strip $(NO_ICON)),)
